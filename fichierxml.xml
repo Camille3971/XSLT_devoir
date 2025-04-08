@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fables de Jean de la Fontaine</title>
+                <author>
+                    <persName>
+                        <forename>Jean</forename>
+                        <surname>de la Fontaine</surname>
+                    </persName>
+                </author>
+                <editor>
+                    <persName>
+                        <forename>Camille</forename>
+                        <surname>Batard</surname>
+                        <affiliation>Student at l'Ecole nationale des chartes</affiliation>
+                        <email>camille.batard@chartes.psl.eu</email>
+                    </persName>
+                </editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <forename>Camille</forename>
+                    <surname>Batard</surname>
+                </publisher>
+                <distributor>Github.com</distributor>
+                <date when="2025-01-21">21/01/2025</date>
+                <availability>
+                    <licence>Ce texte est dans le domaine public. Utilisation libre sous condition de mention de la source.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Fables de Jean de La Fontaine</title>
+                    <author>
+                        <persName>Jean</persName>
+                        <surname>de la Fontaine</surname>
+                    </author>
+                    <date when="1668">1668</date>
+                    <publisher></publisher> 
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Encodage des fables selon les normes de la TEI (Text Encoding Initiative).</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Le texte a été transcrit fidèlement à partir de l'édition originale.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>Fable</term>
+                    <term>Jean de La Fontaine</term>
+                    <term>Poésie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    
+    
+    <TEI n="1">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le Loup et l'Agneau</title>
+                    <author>
+                        <persName>
+                            <forename>Jean</forename>
+                            <surname>de la Fontaine</surname>
+                        </persName>
+                    </author>
+                    <editor>
+                        <persName>
+                            <forename>Camille</forename>
+                            <surname>Batard</surname>
+                            <affiliation>Student at l'Ecole nationale des chartes</affiliation>
+                            <email>camille.batard@chartes.psl.eu</email>
+                        </persName>
+                    </editor>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>
+                        <forename>Camille</forename>
+                        <surname>Batard</surname>
+                    </publisher>
+                    <distributor>Github.com</distributor>
+                    <date when="2025-01-21">21/01/2025</date>
+                    <availability>
+                        <licence>Ce texte est dans le domaine public. Utilisation libre sous condition de mention de la source.</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title>Fables de Jean de La Fontaine</title>
+                        <author>
+                            <persName>Jean</persName>
+                            <surname>de la Fontaine</surname>
+                        </author>
+                        <date when="1668">1668</date>
+                        <publisher></publisher> 
+                    </bibl>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <projectDesc>
+                    <p>Encodage de la fable Le Loup et l'Agneau selon les normes de la TEI (Text Encoding Initiative).</p>
+                </projectDesc>
+                <editorialDecl>
+                    <p>Le texte a été transcrit fidèlement à partir de l'édition originale.</p>
+                </editorialDecl>
+            </encodingDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fra">Français</language>
+                </langUsage>
+                <textClass>
+                    <keywords>
+                        <term>Fable</term>
+                        <term>Jean de La Fontaine</term>
+                        <term>Poésie</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <front>
+                <head>Le Loup et l'Agneau</head>
+            </front>
+            <body>
+                <lg type="stanza" subtype="morale" n="1" rhyme="ABAB">
+                    <l met="alexandrin" n="1">La raison du plus fort<caesura/> est toujours la <rhyme label="A">meilleure</rhyme>:</l>
+                    <l met="octosyllabe" n="2">Nous l'allons montrer tout à l'<rhyme label="A">heure</rhyme>.</l>
+                </lg>
+                <lg type="stanza" n="2" rhyme="ABBA">
+                    <l met="octosyllabe" n="3">Un Agneau se <rhyme label="A">désaltérait</rhyme></l>
+                    <l met="octosyllabe" n="4">Dans le courant d'une onde <rhyme label="B">pure</rhyme>.</l>
+                    <l met="alexandrin" n="5">Un Loup survient à jeun<caesura/> qui cherchait <rhyme label="B">aventure</rhyme>,</l>
+                    <l met="decasyllabe" n="6">Et que la faim en ces lieux <rhyme label="A">attirait</rhyme>.</l>
+                </lg>
+                <lg type="stanza" n="3" rhyme="AABB">
+                    <l met="alexandrin" n="7">Qui te rend si hardi<caesura/> de troubler mon <rhyme label="A">breuvage</rhyme> ?</l>
+                    <l met="octosyllabe" n="8">Dit cet animal plein de <rhyme label="A">rage</rhyme> :</l>
+                    <l met="alexandrin" n="9">Tu seras châtié<caesura/> de ta <rhyme label="B">témérité</rhyme>.</l>
+                    <l met="alexandrin" n="10">— Sire, répond l'Agneau,<caesura/> que votre <rhyme label="B">Majesté</rhyme>.</l>
+                </lg>
+                <lg type="stanza" n="4" rhyme="AABB">
+                    <l met="octosyllabe" n="11">Ne se mette pas en <rhyme label="A">colère</rhyme> ;</l>
+                    <l met="octosyllabe" n="12">Mais plutôt qu'elle <rhyme label="A">considère</rhyme></l>
+                    <l met="octosyllabe" n="13">Que je me vas <rhyme label="B">désaltérant</rhyme></l>
+                    <l met="tetrasyllabe" n="14">Dans le <rhyme label="B">courant</rhyme>,</l>
+                </lg>
+                <lg type="stanza" n="5" rhyme="ABBA">
+                    <l met="octosyllabe" n="15">Plus de vingt pas au-dessous d'<rhyme label="A">Elle</rhyme>,</l>
+                    <l met="alexandrin" n="16">Et que par conséquent,<caesura/> en aucune <rhyme label="B">façon</rhyme>,</l>
+                    <l met="octosyllabe" n="17">Je ne puis troubler sa <rhyme label="B">boisson</rhyme>.</l>
+                    <l met="alexandrin" n="18">— Tu la troubles, reprit<caesura/> cette bête <rhyme label="A">cruelle</rhyme>,</l>
+                </lg>
+                <lg type="stanza" n="6" rhyme="AABB">
+                    <l met="alexandrin" n="17">Et je sais que de moi<caesura/> tu médis l'an <rhyme label="A">passé</rhyme>.</l>
+                    <l met="alexandrin" n="18">— Comment l'aurais-je fait<caesura/> si je n'étais pas <rhyme label="A">né</rhyme> ?</l>
+                    <l met="decasyllabe" n="19">Reprit l'Agneau, je tette encor ma <rhyme label="B">mère</rhyme>.</l>
+                    <l met="octosyllabe" n="20">— Si ce n'est toi, c'est donc ton <rhyme label="B">frère</rhyme>.</l>
+                </lg>
+                <lg type="stanza" n="7" rhyme="ABCB">
+                    <l met="tetrasyllabe" n="21">— Je n'en ai <rhyme label="A">point</rhyme>.</l>
+                    <l met="octosyllabe" n="22">— C'est donc quelqu'un des <rhyme label="B">tiens</rhyme> :</l>
+                    <l met="octosyllabe" n="23">Car vous ne m'épargnez <rhyme label="C">guère</rhyme>,</l>
+                    <l met="octosyllabe" n="24">Vous, vos bergers, et vos <rhyme label="B">chiens</rhyme>.</l>
+                </lg>
+                <lg type="stanza" n="8" rhyme="ABAB">
+                    <l met="decasyllabe" n="25">On me l'a dit : il faut que je me <rhyme label="A">venge</rhyme>.</l>
+                    <l met="octosyllabe" n="26">Là-dessus, au fond des <rhyme label="B">forêts</rhyme>,</l>
+                    <l met="octosyllabe" n="27">Le Loup l'emporte, et puis le <rhyme label="A">mange</rhyme>,</l>
+                    <l met="octosyllabe" n="28">Sans autre forme de <rhyme label="B">procès</rhyme>.</l>
+                </lg>
+            </body>
+        </text>
+    </TEI>
+    <TEI n="2">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le Chêne et le Roseau</title>
+                    <author>
+                        <persName>
+                            <forename>Jean</forename>
+                            <surname>de la Fontaine</surname>
+                        </persName>
+                    </author>
+                    <editor>
+                        <persName>
+                            <forename>Camille</forename>
+                            <surname>Batard</surname>
+                            <affiliation>Student at l'Ecole nationale des chartes</affiliation>
+                            <email>camille.batard@chartes.psl.eu</email>
+                        </persName>
+                    </editor>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>
+                        <forename>Camille</forename>
+                        <surname>Batard</surname>
+                    </publisher>
+                    <distributor>Github.com</distributor>
+                    <date when="2025-01-21">21/01/2025</date>
+                    <availability>
+                        <licence>Ce texte est dans le domaine public. Utilisation libre sous condition de mention de la source.</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title>Fables de Jean de La Fontaine</title>
+                        <author>
+                            <persName>Jean</persName>
+                            <surname>de la Fontaine</surname>
+                        </author>
+                        <date when="1668">1668</date>
+                        <publisher></publisher> 
+                    </bibl>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <projectDesc>
+                    <p>Encodage de la fable Le Chêne et le Roseau selon les normes de la TEI (Text Encoding Initiative).</p>
+                </projectDesc>
+                <editorialDecl>
+                    <p>Le texte a été transcrit fidèlement à partir de l'édition originale.</p>
+                </editorialDecl>
+            </encodingDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fra">Français</language>
+                </langUsage>
+                <textClass>
+                    <keywords>
+                        <term>Fable</term>
+                        <term>Jean de La Fontaine</term>
+                        <term>Poésie</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <front>
+                <head>Le Chêne et le Roseau</head>
+            </front>
+            <body>
+                <lg type="stanza" n="1" rhyme="ABAB">
+                    <l met="octosyllabe" n="1">Le Chêne un jour dit au <rhyme label="A">Roseau</rhyme> :</l>
+                    <l met="alexandrin" n="2">Vous avez bien sujet<caesura/> d'accuser la <rhyme label="B">Nature</rhyme> ;</l>
+                    <l met="alexandrin" n="3">Un Roitelet pour vous<caesura/> est un pesant <rhyme label="A">fardeau</rhyme> :</l>
+                    <l met="octosyllabe" n="4">Le moindre vent qui d'<rhyme label="B">aventure</rhyme> :</l>
+                    <l met="octosyllabe" n="5">Fait rider la face de l'<rhyme label="A">eau</rhyme>,</l>
+                </lg>
+                <lg type="stanza" n="2" rhyme="ABBA">
+                    <l met="octosyllabe" n="6">Vous oblige à baisser la <rhyme label="A">tête</rhyme> :</l>
+                    <l met="alexandrin" n="7">Cependant que mon front,<caesura/> au Caucase <rhyme label="B">pareil</rhyme>,</l>
+                    <l met="alexandrin" n="8">Non content d'arrêter<caesura/> les rayons du <rhyme label="B">Soleil</rhyme>,</l>
+                    <l met="octosyllabe" n="9">Brave l'effort de la <rhyme label="A">tempête</rhyme>.</l>
+                </lg>
+                <lg type="stanza" n="3" rhyme="ABBAB">
+                    <l met="alexandrin" n="10">Tout vous est Aquilon,<caesura/> tout me semble <rhyme label="A">Zéphir</rhyme>.</l>
+                    <l met="alexandrin" n="11">Encor si vous naissiez <caesura/> à l'abri du <rhyme label="B">feuillage</rhyme></l>
+                    <l met="octosyllabe" n="12">Dont je couvre le<rhyme label="B">voisinage</rhyme>,</l>
+                    <l met="octosyllabe" n="13">Vous n'auriez pas tant à<rhyme label="A">souffrir</rhyme> :</l>
+                    <l met="octosyllabe" n="14">Je vous défendrais de l'<rhyme label="B">orage</rhyme> ;</l>
+                </lg>
+                <lg type="stanza" n="3" rhyme="AABB">
+                    <l met="octosyllabe" n="15">Mais vous naissez le plus <rhyme label="A">souvent</rhyme></l>
+                    <l met="alexandrin" n="16">Sur les humides bords<caesura/> des Royaumes du <rhyme label="A">vent</rhyme>.</l>
+                    <l met="alexandrin" n="17">La nature envers vous<caesura/> me semble bien <rhyme label="B">injuste</rhyme>.</l>
+                    <l met="alexandrin" n="18">— Votre compassion,<caesura/> lui répondit l'<rhyme label="B">Arbuste</rhyme>,</l>
+                </lg>
+                <lg type="stanza" n="4" rhyme="AABB">
+                    <l met="alexandrin" n="19">Part d'un bon naturel ;<caesura/> mais quittez ce <rhyme label="A">souci</rhyme>.</l>
+                    <l met="alexandrin" n="20">Les vents me sont moins<caesura/> qu'à vous <rhyme label="B">redoutables</rhyme>.</l>
+                    <l met="alexandrin" n="21">Je plie, et ne romps pas.<caesura/> Vous avez jusqu'<rhyme label="A">ici</rhyme></l>
+                    <l met="octosyllabe" n="22">Contre leurs coups <rhyme label="B">épouvantables</rhyme></l>
+                </lg>
+                <lg type="stanza" n="5" rhyme="AA">
+                    <l met="octosyllabe" n="23">Résisté sans courber le <rhyme label="A">dos</rhyme> ;</l>
+                    <l met="alexandrin" n="24">Mais attendons la fin.<caesura/> Comme il disait ces<rhyme label="A">mots</rhyme> ;</l>
+                </lg>
+                <lg type="stanza" n="6" rhyme="ABBA">
+                    <l met="alexandrin" n="25">Du bout de l'horizon<caesura/> accourt avec <rhyme label="A">furie</rhyme></l>
+                    <l met="octosyllabe" n="26">Le plus terrible des <rhyme label="B">enfants</rhyme></l>
+                    <l met="alexandrin" n="27">Que le Nord eût porté<caesura/> jusque-là dans ses <rhyme label="B">flancs</rhyme>.</l>
+                    <l met="octosyllabe" n="28">L'Arbre tient bon ; le Roseau <rhyme label="A">plie</rhyme>.</l>
+                </lg>
+                <lg type="stanza" subtype="morale" n="7" rhyme="ABBA">
+                    <l met="octosyllabe" n="29">Le vent redouble ses <rhyme label="A">efforts</rhyme>,</l>
+                    <l met="octosyllabe" n="30">Et fait si bien qu'il <rhyme label="B">déracine</rhyme></l>
+                    <l met="alexandrin" n="31">Celui de qui la tê<caesura/>te au Ciel était <rhyme label="B">voisine</rhyme>,</l>
+                    <l met="alexandrin" n="32">Et dont les pieds touchaient<caesura/> à l'Empire des <rhyme label="A">Morts</rhyme>.</l>
+                </lg>
+            </body>
+        </text>
+    </TEI>
+    <TEI n="3">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le Lièvre et la Tortue</title>
+                    <author>
+                        <persName>
+                            <forename>Jean</forename>
+                            <surname>de la Fontaine</surname>
+                        </persName>
+                    </author>
+                    <editor>
+                        <persName>
+                            <forename>Camille</forename>
+                            <surname>Batard</surname>
+                            <affiliation>Student at l'Ecole nationale des chartes</affiliation>
+                            <email>camille.batard@chartes.psl.eu</email>
+                        </persName>
+                    </editor>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>
+                        <forename>Camille</forename>
+                        <surname>Batard</surname>
+                    </publisher>
+                    <distributor>Github.com</distributor>
+                    <date when="2025-01-21">21/01/2025</date>
+                    <availability>
+                        <licence>Ce texte est dans le domaine public. Utilisation libre sous condition de mention de la source.</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title>Fables de Jean de La Fontaine</title>
+                        <author>
+                            <persName>Jean</persName>
+                            <surname>de la Fontaine</surname>
+                        </author>
+                        <date when="1668">1668</date>
+                        <publisher></publisher> 
+                    </bibl>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <projectDesc>
+                    <p>Encodage de la fable Le Lièvre et la Tortue selon les normes de la TEI (Text Encoding Initiative).</p>
+                </projectDesc>
+                <editorialDecl>
+                    <p>Le texte a été transcrit fidèlement à partir de l'édition originale.</p>
+                </editorialDecl>
+            </encodingDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fra">Français</language>
+                </langUsage>
+                <textClass>
+                    <keywords>
+                        <term>Fable</term>
+                        <term>Jean de La Fontaine</term>
+                        <term>Poésie</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <front>
+                <head>Le Lièvre et la Tortue</head>
+            </front>
+            <body>
+                <lg type="stanza" subtype="morale" n="1" rhyme="ABAB">
+                    <l met="alexandrin" n="1">Rien ne sert de courir ;<caesura/> il faut partir à <rhyme label="A">point</rhyme>.</l>
+                    <l met="alexandrin" n="2">Le Lièvre et la Tortue<caesura/> en sont un <rhyme label="B">témoignage</rhyme>.</l>
+                    <l met="alexandrin" n="3">Gageons, dit celle-ci,<caesura/> que vous n'atteindrez <rhyme label="A">point</rhyme></l>
+                    <l met="alexandrin" n="4">Sitôt que moi ce but.<caesura/> — Sitôt ? Êtes-vous <rhyme label="B">sage</rhyme> ?</l>
+                </lg>
+                <lg type="stanza" n="2" rhyme="AABB">
+                    <l met="octosyllabe" n="5">Repartit l'animal <rhyme label="A">léger</rhyme>.</l>
+                    <l met="octosyllabe" n="6">Ma commère, il vous faut <rhyme label="A">purger</rhyme></l>
+                    <l met="octosyllabe" n="7">Avec quatre grains d'<rhyme label="B">ellébore</rhyme>.</l>
+                    <l met="octosyllabe" n="8">— Sage ou non, je parie <rhyme label="B">encore</rhyme>.</l>
+                </lg>
+                <lg type="stanza" n="3" rhyme="AA">
+                    <l met="octosyllabe" n="9">Ainsi fut fait : et de tous <rhyme label="A">deux</rhyme></l>
+                    <l met="octosyllabe" n="10">On mit près du but les <rhyme label="A">enjeux</rhyme> :</l>
+                </lg>
+                <lg type="stanza" n="4" rhyme="ABAB">
+                    <l met="octosyllabe" n="11">Savoir quoi, ce n'est pas l'<rhyme label="A">affaire</rhyme>,</l>
+                    <l met="alexandrin" n="12">Ni de quel juge l'on con<rhyme label="B">vint</rhyme>.</l>
+                    <l met="alexandrin" n="13">Notre Lièvre n'avait que quatre pas à <rhyme label="A">faire</rhyme> ;</l>
+                    <l met="alexandrin" n="14">J'entends de ceux qu'il fait lorsque prêt d'être <rhyme label="B">atteint</rhyme>.</l>
+                </lg>
+                <lg type="stanza" n="5" rhyme="AABB">
+                    <l met="alexandrin" n="15">Il s'éloigne des chiens,<caesura/> les renvoie aux Ca<rhyme label="A">lendes</rhyme>,</l>
+                    <l met="octosyllabe" n="16">Et leur fait arpenter les <rhyme label="A">landes</rhyme>.</l>
+                    <l met="alexandrin" n="17">Ayant, dis-je, du temps<caesura/> de reste pour <rhyme label="B">brouter</rhyme>,</l>
+                    <l met="octosyllabe" n="18">Pour dormir, et pour <rhyme label="B">écouter</rhyme>.</l>
+                </lg>
+                <lg type="stanza" n="6" rhyme="ABAB">
+                    <l met="decasyllabe" n="19">D'où vient le vent, il laisse la <rhyme label="A">Tortue</rhyme></l>
+                    <l met="octosyllabe" n="20">Aller son train de <rhyme label="B">sénateur</rhyme>.</l>
+                    <l met="octosyllabe" n="21">Elle part, elle <rhyme label="A">s'evertue</rhyme> ;</l>
+                    <l met="octosyllabe" n="22">Elle se hâte avec <rhyme label="B">lonteur</rhyme>.</l>
+                </lg>
+                <lg type="stanza" n="7" rhyme="AAB">
+                    <l met="alexandrin" n="23">Lui cependant mépri<caesura/>se une telle <rhyme label="A">victoire</rhyme>,</l>
+                    <l met="octosyllabe" n="24">Tient la gageure à peu de <rhyme label="A">gloire</rhyme>,</l>
+                    <l met="octosyllabe" n="25">Croit qu'il y va de son <rhyme label="B">honneur</rhyme>,</l>
+                </lg>
+                <lg type="stanza" n="8" rhyme="AA">
+                    <l met="decasyllabe" n="26">De partir tard. Il broute, il se <rhyme label="A">repose</rhyme>.</l>
+                    <l met="octosyllabe" n="27">Il s'amuse à toute autre <rhyme label="A">chose</rhyme></l>
+                </lg>
+                <lg type="stanza" n="9" rhyme="ABAB">
+                    <l met="decasyllabe" n="28">Qu'à la gageure. À la fin quand il <rhyme label="A">vit</rhyme></l>
+                    <l met="alexandrin" n="29">Que l'autre touchait pres<caesura/>que au bout de la <rhyme label="B">carrière</rhyme>,</l>
+                    <l met="alexandrin" n="30">Il partit comme un trait ;<caesura/> mais les élans qu'il <rhyme label="A">fit</rhyme>.</l>
+                    <l met="alexandrin" n="31">Furent vains : la Tortue<caesura/> arriva la <rhyme label="B">première</rhyme>.</l>
+                </lg>
+                <lg type="stanza" n="10" rhyme="ABAB">
+                    <l met="alexandrin" n="32">Eh bien ! lui cria<caesura/>-t-elle, avais-je pas <rhyme label="A">raison</rhyme> ?</l>
+                    <l met="octosyllabe" n="33">De quoi vous sert votre <rhyme label="B">vitesse</rhyme> ?</l>
+                    <l met="octosyllabe" n="34">Moi, l'emporter ! et que <rhyme label="A">serait-ce</rhyme></l>
+                    <l met="octosyllabe" n="35">Si vous portiez une <rhyme label="B">maison</rhyme> ?</l>
+                </lg>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>

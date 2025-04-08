@@ -1,0 +1,98 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #fefdf9;
+    color: #2c2c2c;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #e3d5c0;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #c8b091;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #4a2f0b;
+}
+
+h1 {
+    margin:0;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5a3e1b;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #b86b16;
+}
+
+p {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-size: 1.1em;
+    background-color: #fffaf3;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.author {
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+.rhyme {
+    color: red;
+}
+
+.caesura {
+    padding: 1em;
+}
+
+img {
+  display: block;
+  margin: 40px auto 20px auto; /* 40px au-dessus, 20px en-dessous */
+  max-width: 300px;
+  height: auto;
+}
+
+.octosyllabe {
+    color:   #943126  ;
+}
+
+.alexandrin {
+    color:  #633974  ;
+}
+
+.morale {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+a {
+    color: black; 
+}
