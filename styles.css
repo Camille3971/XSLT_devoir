@@ -75,7 +75,7 @@ p {
 
 img {
   display: block;
-  margin: 40px auto 20px auto; /* 40px au-dessus, 20px en-dessous */
+  margin: 40px auto 20px auto;
   max-width: 300px;
   height: auto;
 }
